@@ -36,7 +36,9 @@ https://rturner1220.github.io/password-generator/
 
 Screenshots
 
-Screenshot 1.png
-Screenshot 2.png
-Screenshot 3.png
-Screenshot 4.png
+![Screenshot 1](https://user-images.githubusercontent.com/101642385/169630226-4c27af85-0cf8-444a-9858-7c801a6dd726.png)
+![Screenshot 2](https://user-images.githubusercontent.com/101642385/169630236-0781fad7-6262-4961-b895-5be1bb103edc.png)
+![Screenshot 3](https://user-images.githubusercontent.com/101642385/169630246-ba4e6188-665e-4d8c-9edc-a9886f3bc670.png)
+![Screenshot 4](https://user-images.githubusercontent.com/101642385/169630252-8d57603e-264a-4e46-8cac-a01450f43e81.png)
+
+
