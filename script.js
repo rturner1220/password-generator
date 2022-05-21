@@ -7,6 +7,8 @@ var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 function setPasswordLength() {
   //lenght at least 8 characters ans no more than 128 characters
   var input = window.prompt("Enter a number between 8 and 128 to set your new password");
+  
+  // used is NaN "Not-a-Number" method
   if(!input || isNaN(input) || input < 8 || input>128) {
     window.alert("Enter a valid number.");
   }
@@ -24,6 +26,33 @@ function yesOrNoPrompt(msg) {
 
   return input.toLowerCase() === 'y';
 }
+
+function setCriteria() {
+  var criteria = {
+    upperCase: false,
+    lowerCase: false,
+    numeric: false,
+    specialCharacters: false,
+  };
+
+  // confirm whether or not to include characters
+  criteria.upperCase = yesOrNoPrompt("Should the password include uppercase? Y/N");
+  criteria.lowerCase = yesOrNoPrompt("Should the password include lowercase? Y/N");
+  criteria.numeric = yesOrNoPrompt("Should the password include numbers? Y/N?");
+  criteria.specialCharacters = yesOrNoPrompt("Should the password include special Characters? Y/N");
+
+  if (Object.values(criteria).indexOf(true) < 0) {
+    window.alert("At least one caharacter type should be selected.");
+  }
+
+  console.log(criteria);
+
+  return criteria;
+}
+
+
+
+
 
 
 
