@@ -50,12 +50,10 @@ function setCriteria() {
   return criteria;
 }
 
-
-
-
-
-
-
+function randomChar(charset) {
+  var char = charset.charAt(Math.floor(Math.random()*charset.length));
+  return char;
+}
 
 function generatePassword() {
   window.alert("Let's create your password!");
@@ -93,7 +91,7 @@ function generatePassword() {
   return password;
 }
 
-// Write password to the #password input
+// Write password to the #password input - link to textarea in HTML
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
