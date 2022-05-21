@@ -3,6 +3,7 @@ var numbers = "0123456789";
 var lowerCase = "abcdefghijklmnopqrstuvwxyz";
 var specialCharacters = "!@#$~%^.+-&*()";
 var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+<<<<<<< HEAD
 
 function setPasswordLength() {
   //lenght at least 8 characters ans no more than 128 characters
@@ -106,3 +107,5 @@ function bindClickEvent() {
 
 bindClickEvent();
 
+=======
+>>>>>>> a9feb59ec769c97f3c6825410495e373bfff11a8
